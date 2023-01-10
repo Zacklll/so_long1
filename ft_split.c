@@ -6,7 +6,7 @@
 /*   By: zael-wad <zael-wad@student.1337.ma>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/28 16:26:19 by zael-wad          #+#    #+#             */
-/*   Updated: 2022/12/25 14:25:02 by zael-wad         ###   ########.fr       */
+/*   Updated: 2023/01/05 18:04:33 by zael-wad         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -98,19 +98,17 @@ char	**cpy(char const *st, char **str, char c)
 			str[k++][j] = '\0';
 		j = 0;
 	}
-	str[k] = 0;
+	str[k] = NULL;
 	return (str);
 }
 
 char	**ft_split(char const *st, char c)
 {
-	int		i;
 	char	**str;
 	int		k;
 
 	k = 0;
 	str = NULL;
-	i = 0;
 	if (!st)
 		return (0);
 	str = sto(st, str, c);
@@ -126,8 +124,3 @@ char	**ft_split(char const *st, char c)
 	str = cpy(st, str, c);
 	return (str);
 }
-// int main()
-// {
-// 	char **t = ft_split("abc asdas dasd", ' ');
-// 	printf("%s", t[2]);
-// }

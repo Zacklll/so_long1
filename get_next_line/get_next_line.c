@@ -6,7 +6,7 @@
 /*   By: zael-wad <zael-wad@student.1337.ma>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/05 14:54:41 by zael-wad          #+#    #+#             */
-/*   Updated: 2022/12/24 21:36:44 by zael-wad         ###   ########.fr       */
+/*   Updated: 2023/01/06 14:00:04 by zael-wad         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -35,8 +35,6 @@ static char	*line(int fd, char *save)
 		tmp = ft_strjoin(save, buf);
 		free(save);
 		save = tmp;
-		if (ft_strchr(save, '\n') > -1)
-			break ;
 		s = read(fd, buf, BUFFER_SIZE);
 	}
 	free(buf);

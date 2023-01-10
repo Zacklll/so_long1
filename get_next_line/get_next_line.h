@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   get_next_line.h                                    :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: zael-wad <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: zael-wad <zael-wad@student.1337.ma>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/05 14:37:52 by zael-wad          #+#    #+#             */
-/*   Updated: 2022/11/16 07:40:15 by zael-wad         ###   ########.fr       */
+/*   Updated: 2023/01/09 10:05:47 by zael-wad         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,7 +21,7 @@
 # include <unistd.h>
 
 # ifndef BUFFER_SIZE
-#  define BUFFER_SIZE 1
+#  define BUFFER_SIZE 25
 # endif
 
 size_t	ft_strlen(char *str);

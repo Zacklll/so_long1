@@ -6,7 +6,7 @@
 /*   By: zael-wad <zael-wad@student.1337.ma>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/06 17:30:59 by zael-wad          #+#    #+#             */
-/*   Updated: 2022/12/25 12:19:21 by zael-wad         ###   ########.fr       */
+/*   Updated: 2023/01/09 10:23:13 by zael-wad         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -46,8 +46,6 @@ char	*ft_strjoin(char *s1, char *s2)
 		return (free(ptr), NULL);
 	while (s1[++i])
 	{
-		if (s1[i] == '\n' && s1[i+1] == '\n')
-			exit (0);
 		ptr[++j] = s1[i];
 	}
 	i = -1;

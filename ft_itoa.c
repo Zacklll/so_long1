@@ -6,11 +6,12 @@
 /*   By: zael-wad <zael-wad@student.1337.ma>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/29 15:10:44 by zael-wad          #+#    #+#             */
-/*   Updated: 2022/12/22 03:49:20 by zael-wad         ###   ########.fr       */
+/*   Updated: 2023/01/05 15:54:10 by zael-wad         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "so_long.h"
+
 static int	to_find(int num)
 {
 	int	nb;

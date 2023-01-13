@@ -6,7 +6,7 @@
 /*   By: zael-wad <zael-wad@student.1337.ma>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/09 10:41:56 by zael-wad          #+#    #+#             */
-/*   Updated: 2023/01/10 18:45:12 by zael-wad         ###   ########.fr       */
+/*   Updated: 2023/01/12 00:01:01 by zael-wad         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -40,10 +40,10 @@ int   enemy_moves(t_var *data)
 
 void funcs(t_list *head)
 {
-    printf("etstfvesf \n");
+    ft_printf("etstfvesf \n");
     while (head)
     {
-        printf("%d , %d\n", head->a, head->b );
+        ft_printf("%d , %d\n", head->a, head->b );
         head = head->next;
     }
 }
